@@ -1,3 +1,3 @@
 # electron-quick-start
 
-Questa è una prova ...
+Questa è una prova ... .
