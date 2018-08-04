@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ciao mondo!</title>
+  </head>
+  <body>
+    <h1>Ciao mondo!</h1>
+    <!-- Tutte le API Node.js sono disponibili in questo processo di rendering. -->
+    Stiamo usando Node.js <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    e naturalmente Electron <script>document.write(process.versions.electron)</script>.
+
+    <script>
+      // Puoi anche richiedere altri file da eseguire in questo processo
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
